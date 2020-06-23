@@ -17,6 +17,9 @@ git config --global http.proxy http://cache-st.ctu.edu.vn:3128
 ## Cách tạo app heroku
 
 - Bước 1: Tạo thư mục project
+```
+mkdir <tên thư mục>
+```
 - Bước 2: gõ lệnh:
 ```
 $ sudo git init
