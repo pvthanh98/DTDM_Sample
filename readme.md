@@ -28,7 +28,7 @@ $ sudo git init
 ```
 $ heroku create <tên app>
 ```
-Lưu ý: Nếu dùng lệnh git init rồi thì heroku sẽ tự động remote app vừa tạo vào git, ngược lại ta phải dùng lệnh git remote đến heroku app
+Lưu ý: Nếu dùng lệnh git init rồi thì heroku sẽ tự động remote app (bỏ qua bước này nếu làm đúng thứ tự)
 - Bước 4: Tiến hành chỉnh sửa, thêm file cho project
 - Bước 5: Đẩy project lênh server
 ```
