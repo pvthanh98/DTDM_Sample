@@ -1,6 +1,4 @@
 # Điện Toán Đám Mây
-
-## Mô tả
 Bài mẫu uploads một project php lên heroku
 ## Cấu hình proxy:
 ```
