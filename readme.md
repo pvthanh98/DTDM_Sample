@@ -28,7 +28,7 @@ $ heroku create <tên app>
 - Bước 4: Tiến hành chỉnh sửa, thêm file cho project
 - Bước 5: Đẩy project lênh server
 ```
- $ sudo git add . # có dấu chấm, dùng để thêm vào git
- $ sudo git commit -m "my commit"   # xác nhận trạng thái trong git
- $ sudo git push heroku master    # đẩy trạng thái xác nhận lên server
+ $ sudo git add .                         // có dấu chấm, dùng để thêm vào git
+ $ sudo git commit -m "my commit"         // xác nhận trạng thái trong git
+ $ sudo git push heroku master           // đẩy trạng thái xác nhận lên server
 ```
