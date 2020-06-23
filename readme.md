@@ -10,5 +10,5 @@ sudo snap install --classic heroku
 ```
 ## Proxy config for git
 ```
-git config --global http.proxy http://proxyUsername:proxyPassword@proxy.server.com:port
+git config --global http.proxy http://cache-st.ctu.edu.vn:3128
 ```
