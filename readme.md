@@ -37,3 +37,4 @@ $ heroku create <tên app>
  $ sudo git commit -m "my commit"         // xác nhận trạng thái trong git
  $ sudo git push heroku master           // đẩy trạng thái xác nhận lên server
 ```
+https://drive.google.com/drive/u/0/folders/15ucqKQE1LxNNUKpbyHFlj8CyB0pzGh8s
