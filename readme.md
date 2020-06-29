@@ -38,3 +38,4 @@ $ heroku create <tên app>
  $ sudo git push heroku master           // đẩy trạng thái xác nhận lên server
 ```
 https://drive.google.com/drive/u/0/folders/15ucqKQE1LxNNUKpbyHFlj8CyB0pzGh8s
+https://drive.google.com/drive/folders/15ucqKQE1LxNNUKpbyHFlj8CyB0pzGh8s?usp=sharing
