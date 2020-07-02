@@ -21,5 +21,10 @@ network:
         - 10.10.10.2/24
       gateway4: 10.10.10.1
       nameservers:
-          addresses: [10.10.10.1, 1.1.1.1]
+          addresses: [172.18.27.2, 172.18.27.6]
+```
+Then run to apply
+```
+sudo netplan apply
+
 ```
