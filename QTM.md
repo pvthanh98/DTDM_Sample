@@ -39,3 +39,17 @@ Then run to apply
 ```
 sudo netplan apply
 ```
+
+## Web service
+### Install Apache2
+```
+sudo apt-get install apache2
+```
+### Install PHP
+```
+sudo apt-get install php
+```
+### Install MYSQL
+```
+sudo apt-get install mysql-server
+```
