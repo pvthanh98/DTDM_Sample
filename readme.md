@@ -39,3 +39,8 @@ $ heroku create <tên app>
 ```
 https://drive.google.com/drive/u/0/folders/15ucqKQE1LxNNUKpbyHFlj8CyB0pzGh8s
 https://drive.google.com/drive/folders/15ucqKQE1LxNNUKpbyHFlj8CyB0pzGh8s?usp=sharing
+
+# Quản Trị Mạng
+
+## Proxy
+[https://www.serverlab.ca/tutorials/linux/administration-linux/how-to-set-the-proxy-for-apt-for-ubuntu-18-04/] (Set proxy in file)
