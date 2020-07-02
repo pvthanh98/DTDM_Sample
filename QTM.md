@@ -53,3 +53,19 @@ sudo apt-get install php
 ```
 sudo apt-get install mysql-server
 ```
+### Configure Remote Mysql
+```
+sudo vi /etc/mysql/mysql.conf.d/mysqld.cnf
+```
+Change 
+```
+bind-address            = 127.0.0.1
+```
+To
+```
+bind-address            = 0.0.0.0
+```
+Then, Restart the Ubuntu MysQL Server.
+```
+systemctl restart mysql.service
+```
