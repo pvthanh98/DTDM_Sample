@@ -1,6 +1,6 @@
 # Quản Trị Mạng
 
-## Proxy
+## Proxy (Choose one of these)
 ### Static
 ```
 sudo touch /etc/apt/apt.conf.d/proxy.conf
