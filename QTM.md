@@ -57,15 +57,33 @@ sudo apt-get install mysql-server
 ```
 sudo vi /etc/mysql/mysql.conf.d/mysqld.cnf
 ```
-Change 
+- Change 
 ```
 bind-address            = 127.0.0.1
 ```
-To
+- To
 ```
 bind-address            = 0.0.0.0
 ```
-Then, Restart the Ubuntu MysQL Server.
+- Then, Restart the Ubuntu MysQL Server.
 ```
 systemctl restart mysql.service
 ```
+- Connect to mysql
+```
+sudo mysql -u root -p
+```
+- Create a database
+```
+create database test_db
+```
+- Create **remote account**
+```
+CREATE USER 'username'@'%' IDENTIFIED BY 'password';
+```
+- Grant Privileges to user
+```
+GRANT ALL PRIVILEGES ON test_db. * TO 'username'@'%';
+```
+
+
