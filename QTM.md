@@ -10,7 +10,7 @@ export https_proxy=http://cache-st.ctu.edu.vn:3128
 
 ```
 ## Static IP Config
-To configure your system to use static address assignment, create a netplan configuration in the file * /etc/netplan/99_config.yaml * 
+To configure your system to use static address assignment, create a netplan configuration in the file **/etc/netplan/99_config.yaml**
 ```
 network:
   version: 2
