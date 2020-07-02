@@ -52,8 +52,10 @@ sudo apt-get install php
 ### Install MYSQL
 ```
 sudo apt-get install mysql-server
+sudo apt-get install php-mysql
 ```
 ### Configure Remote Mysql
+Modify file **/etc/mysql/mysql.conf.d/mysqld.cnf**
 ```
 sudo vi /etc/mysql/mysql.conf.d/mysqld.cnf
 ```
@@ -69,21 +71,21 @@ bind-address            = 0.0.0.0
 ```
 systemctl restart mysql.service
 ```
-- Connect to mysql
+### Connect To MySQL
 ```
 sudo mysql -u root -p
 ```
 - Create a database
 ```
-create database test_db
+mysql>create database test_db
 ```
 - Create **remote account**
 ```
-CREATE USER 'username'@'%' IDENTIFIED BY 'password';
+mysql>CREATE USER 'username'@'%' IDENTIFIED BY 'password';
 ```
 - Grant Privileges to user
 ```
-GRANT ALL PRIVILEGES ON test_db. * TO 'username'@'%';
+mysql>GRANT ALL PRIVILEGES ON test_db. * TO 'username'@'%';
 ```
 
 
