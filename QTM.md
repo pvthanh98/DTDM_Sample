@@ -24,6 +24,10 @@ export https_proxy=http://cache-st.ctu.edu.vn:3128
 ## Static IP Config
 To configure your system to use static address assignment, create a netplan configuration in the file **/etc/netplan/99_config.yaml**
 ```
+sudo vi /etc/netplan/99_config.yaml
+```
+add following lines 
+```
 network:
   version: 2
   renderer: networkd
@@ -35,7 +39,7 @@ network:
       nameservers:
           addresses: [172.18.27.2, 172.18.27.6]
 ```
-Then run to apply
+Then save it and run to apply
 ```
 sudo netplan apply
 ```
