@@ -3,7 +3,7 @@
 ## Proxy (Choose one of two ways below)
 ### Static
 ```
-sudo touch /etc/apt/apt.conf.d/proxy.conf
+sudo nano /etc/apt/apt.conf.d/proxy.conf
 ```
 add the following lines
 ```
