@@ -92,12 +92,13 @@ mysql>CREATE USER 'username'@'%' IDENTIFIED BY 'password';
 mysql>GRANT ALL PRIVILEGES ON test_db. * TO 'username'@'%';
 ```
 ### Connect PHP to Mysql Sample
+Create table
 ```
 <?php
     $servername = "localhost";
-    $username = "username";
-    $password = "password";
-    $dbname = "myDB";
+    $username = "thanhphan";
+    $password = "thanhphan";
+    $dbname = "test_db";
 
     // Create connection
     $conn = new mysqli($servername, $username, $password, $dbname);
@@ -107,14 +108,14 @@ mysql>GRANT ALL PRIVILEGES ON test_db. * TO 'username'@'%';
     }
 
     // sql to create table
-    $sql = "CREATE TABLE MyGuests (
-    id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-    firstname VARCHAR(30) NOT NULL,
-    lastname VARCHAR(30) NOT NULL
+    $sql = "CREATE TABLE nguoidung (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    fullname VARCHAR(30) NOT NULL,
+    email VARCHAR(30) NOT NULL
     )";
 
     if ($conn->query($sql) === TRUE) {
-      echo "Table MyGuests created successfully";
+      echo "Table nguoidung created successfully";
     } else {
       echo "Error creating table: " . $conn->error;
     }
